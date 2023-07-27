@@ -1,0 +1,158 @@
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf") format("ttf"),
+       url("../fonts/OpenSans-Regular.woff") format("woff"),
+       url("../fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.ttf") format("ttf"),
+       url("../fonts/OpenSans-Bold.woff") format("woff"),
+       url("../fonts/OpenSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0 auto;
+  width: 1440px;
+  font-family: "Open Sans";
+}
+
+.container {
+  width: 1326px;
+  margin: 0 auto;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 6px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+
+
+.how-it-work {
+  padding-top: 60px;
+  padding-bottom: 42px;
+  background-color: #FFF6ED;
+}
+
+
+.how-it-work__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.how-it-work__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-it-work__item {
+  width: 28.28%;
+}
+
+.how-it-work__image-block {
+  width: 375px;
+  height: 288px;
+}
+
+.how-it-work__descr-block {
+}
+
+
+
+.how-it-work__title-color {
+  color: #FF7A00;
+}
+
+.how-it-work__text {
+
+}
+
+
+
+
+
+
+
+
+
+.integration {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #FFFFFF;
+}
+
+.integration__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.integration__descr {
+  width: 52.27%;
+}
+
+.integration__title {
+  margin-bottom: 11px;
+}
+
+.integration__social {
+}
