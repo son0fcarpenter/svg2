@@ -110,6 +110,7 @@ body {
 }
 
 .how-it-work__image-block {
+  margin-bottom: 21px;
   width: 375px;
   height: 288px;
 }
